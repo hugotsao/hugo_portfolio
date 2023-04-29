@@ -2,7 +2,7 @@
 
 baseURL = "hugotsao.github.io"
 languageCode = "en"
-title = ""
+title = "Hugo Resume"
 theme = "hugo-devresume-theme"
 googleAnalytics = ""
 
@@ -12,8 +12,8 @@ googleAnalytics = ""
 
 
 [params]
-    author = "CowboySmall"
-    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+    author = "HugoCao"
+    description = "Hugo's Portfolio"
 
 
     primaryColor = "#212f3d"
