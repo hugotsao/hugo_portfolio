@@ -1,0 +1,315 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = ""
+
+
+
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#212f3d"
+    textPrimaryColor = "#17202a"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Hugo Cao"
+        tagline = "Senior Software Engineer"
+        avatar = "crop_icon.jpg"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Toronto"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "647-201-1206"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "hugo.ca@yahoo.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "www.yourwebsite.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Java/Kotlin/React/Python"
+        [[params.skills.list.items]]
+        details = "Git/AWS"        
+        # [[params.skills.list.items]]
+        # details = "PostgreSQL/MySQL"
+        [[params.skills.list.items]]
+        details = "Object-Oriented Design"        
+        
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "MS in Geographic information System"
+        university = "Eastern Michigan University"
+        dates = "2010 - 2012"
+        [[params.education.list]]
+        degree = "BS in Spatial Information and Digital Technology"
+        university = "Wuhan university"
+        dates = "2006 - 2010"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = false
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Professional"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Linux"
+        [[params.interests.list]]
+        name = "Videography"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "10+ year Software Engineer who loves to solve challenging problems and learn new stuff"
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "FB App Android Frontend / Software Engineer "
+        dates = "May 2022 - Present"
+        company = "Meta/Remote"
+        details = "Using Java/Kotlin to develop Facebook Android app frontend feature reels ads."
+        [[params.experience.list.items]]
+        details = "Using Litho to implement Delayed CTA button animation"
+        [[params.experience.list.items]]
+        details = "Looping animation for trust signals"
+        [[params.experience.list.items]]
+        details = "Watch and More box for Video Ads"
+        
+
+        [[params.experience.list]]
+        title = "Software Development Engineer"
+        dates = "Feb 2021 - 2022 Jan"
+        company = "Magic Memories/Remote"
+        details = "Using Open Source Technologies (github, Java, React, Fastapi, photopea api, docker) to design and develop website on AWS stack"
+        [[params.experience.list.items]]
+        details = "Design and implement the Quality Assurance platform for staff to manually edit media after the automatic media processing. React, Fastapi, photopea api (free open source online photo editing API)"
+        [[params.experience.list.items]]
+        details = "Sales Kiosk implementation using react redux"
+        [[params.experience.list.items]]
+        details = "Solution architecture, building data store for kiosk"
+        [[params.experience.list.items]]
+        details = "Design solution: making data source available for newly developed cloud base services"
+
+        [[params.experience.list]]
+        title = "Alexa Entity Resolution / Software Development Engineer"
+        dates = "2014 - 2016"
+        company = "Amazon/Hybrid"
+        details = "Using Java for developing infra/backend solution, including but not limit to AWS cloudformation, lambda, api gateway and IAM "
+        [[params.experience.list.items]]
+        details = "Implemented cross account ElesticSearch reindexing Service using on AWS platform"
+        [[params.experience.list.items]]
+        details = "Led cross-team effort to make radio callsign get worldwide matching with machine learningmodel while replacing regular expression"
+        [[params.experience.list.items]]
+        details = "Fit in Japanese transliteration model into Alexa runtime using Amazon internal CICD and build tools"
+        [[params.experience.list.items]]
+        details = "Light Frontend work using react and redux for internal teams to manage AWS resources"
+
+        [[params.experience.list]]
+        title = "Senior Developer"
+        dates = "2017 - 2018"
+        company = "Thomson Reuters/Beijing/China"
+        details = "Data transformation work using Scala (SparkSQL) from HBase"
+
+        [[params.experience.list]]
+        title = "Backend Developer"
+        dates = "2015 - 2017"
+        company = "IBM/Beijing/China"
+        details = "Big Data platform development, using python to fit in Titan graphql into Ambari"
+
+        [[params.experience.list]]
+        title = "Java Developer"
+        dates = "2014 - 2015"
+        company = "Deutsche Bank/Cary, NC/USA"
+        details = "Using Java to implement UX features (GWT-GXT)"
+
+        [[params.experience.list]]
+        title = "Frontend Developer"
+        dates = "2014 - 2015"
+        company = "Syneren Technologies Corps/Arlington, VA/USA"
+        details = "Built wordpress plugins using php for company website"
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/hugotsao"        
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/hugocao"    
+        [[params.social.list]]
+        icon = "fab fa-youtube-square"
+        url = "//youtube.com/mumbling_hugo"
+        # title = "@mumbling_hugo"
+
