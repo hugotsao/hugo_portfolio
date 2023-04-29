@@ -3,7 +3,7 @@
 baseURL = "hugotsao.github.io"
 languageCode = "en"
 title = ""
-theme = "my-devresume-theme"
+theme = "hugo-devresume-theme"
 googleAnalytics = ""
 
 
