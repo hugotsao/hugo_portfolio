@@ -49,7 +49,7 @@ googleAnalytics = ""
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "#"
-        text = "www.yourwebsite.com"
+        text = "https://www.youtube.com/c/MumblingHugo"
 
 
 
@@ -239,7 +239,7 @@ googleAnalytics = ""
 
         [[params.experience.list]]
         title = "Frontend Developer"
-        dates = "2014 - 2015"
+        dates = "2012 - 2014"
         company = "Syneren Technologies Corps/Arlington, VA/USA"
         details = "Built wordpress plugins using php for company website"
 
