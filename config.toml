@@ -207,7 +207,7 @@ googleAnalytics = ""
 
         [[params.experience.list]]
         title = "Alexa Entity Resolution / Software Development Engineer"
-        dates = "2014 - 2016"
+        dates = "2018 - 2021"
         company = "Amazon/Hybrid"
         details = "Using Java for developing infra/backend solution, including but not limit to AWS cloudformation, lambda, api gateway and IAM "
         [[params.experience.list.items]]
